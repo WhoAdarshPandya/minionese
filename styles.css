@@ -2,9 +2,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
 
 /* basic */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: none;
+    /* font-family: 'Damion', cursive; */
+}
+
+/* apply minion bg */
+body {
+    background: url(./assets/minions.jpg);
+    background-repeat: repeat;
+    /* background-position: center; */
+    /* background-size: cover; */
+}
+
+.mx-auto {
+    margin: 0 auto !important;
+}
+
+/* navbar */
+.navbar {
+    height: 100px;
+    width: 100%;
+    background: yellow;
+}
+
+.navbar-header {
     font-family: 'Damion', cursive;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+/* inputs and buttons */
+.container {
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+textarea {
+    resize: none;
+    height: 130px;
+    width: 100%;
+    border: 1px solid yellow;
+    margin: 0 auto;
+}
+
+#btn {
+    width: 100%;
+    height: 100px;
+    color: black;
+    margin-top: 20px;
+    border: none;
+    background-color: yellow;
+    transition: all 100ms ease-in-out;
+    font-family: 'Damion', cursive;
+    font-size: 40px;
+}
+
+#btn:hover {
+    background-color: rgb(253, 253, 43);
+    transform: scale(0.9);
+}
+
+/* output */
+#result {
+    margin-top: 30px;
+}
+
+#output {
+    margin-top: 20px;
+    border: 1px solid yellow;
+    background-color: #eee;
+    height: 10vh;
+    width: 100%;
+}
+
+.footer {
+    margin-top: 10px;
+    background-color: yellow;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    height: 110px;
 }

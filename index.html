@@ -5,11 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minionese</title>
+    <!-- adding custom stylesheet  -->
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-    <p>hello</p>
+    <nav>
+        <div class="navbar">
+            <h3 class="navbar-header">Banana Talk</h3>
+        </div>
+    </nav>
+    <div class="container">
+        <textarea id="textarea" maxlength="120" class="materialize-textarea" data-length="120"
+            placeholder="put english sentence , i'll convert it into minionese language"></textarea>
+        <button id="btn">Convert </button>
+        <div id="result">
+            <div style="font-size: larger;"> Banana Language 👀</div>
+            <div id="output"></div>
+        </div>
+    </div>
+    <footer class="footer">
+        <h3>fun fact</h3>
+        <p>The minions’ design was inspired by the Jawas from Star Wars and the Oompa Loompas from Willy Wonka and the
+            Chocolate Factory. At first there were talks of the minions being tall and orc-like. Thankfully that didn’t
+            happen!</p>
+    </footer>
     <script src="main.js"></script>
 </body>
 
